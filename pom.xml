@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.socialsla</groupId>
+	<artifactId>ptstemmer-java</artifactId>
+	<version>0.3.b1</version>
+	<name>Social SLA - PTStemmer</name>
+	<description>STemmer para a lingua portuguesa para uso na linguagem Java</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<developers>
+		<developer>
+			<id>carlosdelfino</id>
+			<name>Carlos Delfino</name>
+			<email>consultoria@carlosdelfino.eti.br</email>
+			<url>http://www.carlosdelfino.eti.br</url>
+			<organization>Social SLA</organization>
+			<organizationUrl>http://socialsla.github.io</organizationUrl>
+		</developer>
+		<developer>
+			<id>fracpete</id>
+			<name>Peter Reutemann</name>
+		</developer>
+		<developer>
+			<id>poliveira</id>
+			<name>Pedro Olivera</name>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:https://github.com/socialsla/ptstemmer-java</connection>
+		<developerConnection>scm:git:https://github.com/fracpete/ptstemmer-java</developerConnection>
+		<url>https://github.com/fracpete/ptstemmer-java</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>test</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>src</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source />
+					<target />
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
