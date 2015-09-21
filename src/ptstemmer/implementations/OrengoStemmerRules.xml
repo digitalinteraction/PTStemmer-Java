@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <orengorules>
   <step name="pluralreduction" size="3" exceptions="1">
     <rule replacement="ão" size="3" suffix="ões"/>

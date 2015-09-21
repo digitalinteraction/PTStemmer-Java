@@ -11,7 +11,7 @@
 	<rule replacement="al" size="3" suffix="ais"/>
 	<rule replacement="ol" size="3" suffix="óis"/>
 	<rule replacement="il" size="3" suffix="is"/>
-	<rule replacement="ão" size="2" suffix="ões"/>	
+	<rule replacement="ão" size="2" suffix="ões"/>
 	<rule replacement="ao" size="2" suffix="ães"/>
 	<rule replacement="" size="5" suffix="mente"/>
 	<rule replacement="" size="2" suffix="s"/>
