@@ -4,7 +4,5 @@ version := "0.3.b1"
 
 javaSource in Compile := baseDirectory.value / "src"
 javacOptions in Compile ++= Seq("-encoding", "UTF-8")
-
-// Remove Scala dependencies
-crossPaths := false
-autoScalaLibrary := false
+unmanagedResourceDirectories in Compile += baseDirectory.value / "src"
+includeFilter in (Compile, unmanagedResources) := "*.xml"
